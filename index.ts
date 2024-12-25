@@ -1,7 +1,9 @@
 import { execute as execSingleton } from "./creational/singleton";
 import { execute as execPrototype } from "./creational/prototype";
 import { execute as execBuilder } from "./creational/buider";
+import { execute as execSimpleFactory } from "./creational/simpleFactory";
 
 //execSingleton();
 //execPrototype();
-execBuilder();
+//execBuilder();
+execSimpleFactory();
