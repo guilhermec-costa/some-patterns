@@ -1,4 +1,7 @@
-import { Singleton } from "./creational/singleton";
+import { execute as execSingleton } from "./creational/singleton";
+import { execute as execPrototype } from "./creational/prototype";
+import { execute as execBuilder } from "./creational/buider";
 
-let instance = Singleton.getInstance();
-console.log(instance.state);
+//execSingleton();
+//execPrototype();
+execBuilder();

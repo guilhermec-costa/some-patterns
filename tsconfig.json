@@ -7,11 +7,9 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "outDir": "./dist",
-    "baseUrl": "./",
+    "baseUrl": "./creational",
     "paths": {
       "*": ["*"]
     }
   },
-  "include": ["src/**/*", "index.ts", "creational"],
-  "exclude": ["node_modules", "dist"]
 }
