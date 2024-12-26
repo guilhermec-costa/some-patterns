@@ -50,4 +50,12 @@ Redução de acoplamento: Com o Prototype, a lógica de criação de objetos fic
 Assim, se precisar mudar como um objeto é configurado ou inicializado, basta alterar o protótipo base. 
 Todas as instâncias clonadas refletirão essa mudança automaticamente, 
 eliminando a necessidade de atualizar múltiplos pontos no código.
+
+Use cases:
+
+1 - Use the Prototype pattern when your code shouldn’t depend on the concrete classes of objects that you need to copy.
+
+2 - Use the pattern when you want to reduce the number of subclasses that only differ in the way they initialize their respective objects.
+The Prototype pattern lets you use a set of pre-built objects configured in various ways as prototypes. 
+Instead of instantiating a subclass that matches some configuration, the client can simply look for an appropriate prototype and clone it.
 */

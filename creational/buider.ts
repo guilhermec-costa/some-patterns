@@ -100,3 +100,18 @@ export function execute() {
 
   console.log({ obj1, obj2, obj3 });
 }
+
+/*
+Use cases:
+
+1 - Use the Builder pattern to get rid of a “telescoping constructor”.
+The Builder pattern lets you build objects step by step, using only those steps that you really need
+
+2 - Use the Builder pattern when you want your code to be able to create different 
+representations of some product (for example, stone and wooden houses).
+
+3 -  Use the Builder to construct Composite trees or other complex objects.
+A builder doesn’t expose the unfinished product while running construction steps. 
+This prevents the client code from fetching an incomplete result.
+
+*/
