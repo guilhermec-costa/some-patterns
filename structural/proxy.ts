@@ -29,6 +29,7 @@ class ConcreteThirdPartyService implements ThirdPartyService {
 // the proxy implements the same interface the objet it will intercept implements
 class InterceptorProxy implements ThirdPartyService {
 
+  // reference to the original service
   constructor(
     private notTheProxy: ThirdPartyService) 
   {}
@@ -36,6 +37,7 @@ class InterceptorProxy implements ThirdPartyService {
   // disguises to be the original object. A SUBSTITUTE
   someOperation(): void {
     console.log("Intercepting before operation")
+    // delegating work to the original service
     this.notTheProxy.someOperation();
     console.log("Intercepting after operation");
   }

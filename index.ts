@@ -6,6 +6,7 @@ import { execute as execFactoryMethod } from "./creational/factoryMethod";
 import { execute as execAbstractFactory } from "./creational/abstractFactory";
 import { execute as execFacade } from "./structural/facade";
 import { execute as execProxy } from "./structural/proxy";
+import { execute as execDecorator } from "./structural/decorator";
 
 //execSingleton();
 //execPrototype();
@@ -14,4 +15,5 @@ import { execute as execProxy } from "./structural/proxy";
 //execFactoryMethod();
 //execAbstractFactory();
 //execFacade();
-execProxy();
+//execProxy();
+execDecorator();
