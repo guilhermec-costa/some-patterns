@@ -49,6 +49,10 @@ class DerivedDecorator extends BaseDecorator {
 
   override act(a: string): void {
     this.wrappedComponent.name += "derive-decorator";
+
+    // at this point, the wrapped object is no longer the same.
+    // so, when the essential behavior gets executed, it is already modified,
+    // and the client code does not even know about this change
     super.act(a);
   }
 }
