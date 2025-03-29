@@ -10,6 +10,8 @@ import { execute as execDecorator } from "./structural/decorator";
 import { execute as execObserver } from "./behavioral/obsever";
 import { execute as executeStrategy } from "./behavioral/strategy";
 import {execute as executeAdapter } from "./structural/adapter";
+import {execute as executeCommand } from "./behavioral/command";
+import { executeHooks } from "./hook_pattern";
 
 /*
   Design patterns:
@@ -41,4 +43,6 @@ import {execute as executeAdapter } from "./structural/adapter";
 //execDecorator();
 //execObserver();
 // executeStrategy();
-executeAdapter();
+/* executeAdapter(); */
+// executeCommand();
+executeHooks();
