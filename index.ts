@@ -38,5 +38,5 @@ import { execute as executeStrategy } from "./behavioral/strategy";
 //execFacade();
 //execProxy();
 //execDecorator();
-//execObserver();
-executeStrategy();
+execObserver();
+// executeStrategy();
