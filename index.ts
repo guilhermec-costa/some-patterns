@@ -9,6 +9,7 @@ import { execute as execProxy } from "./structural/proxy";
 import { execute as execDecorator } from "./structural/decorator";
 import { execute as execObserver } from "./behavioral/obsever";
 import { execute as executeStrategy } from "./behavioral/strategy";
+import {execute as executeAdapter } from "./structural/adapter";
 
 /*
   Design patterns:
@@ -38,5 +39,6 @@ import { execute as executeStrategy } from "./behavioral/strategy";
 //execFacade();
 //execProxy();
 //execDecorator();
-execObserver();
+//execObserver();
 // executeStrategy();
+executeAdapter();
