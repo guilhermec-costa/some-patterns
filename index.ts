@@ -12,6 +12,7 @@ import { execute as executeStrategy } from "./behavioral/strategy";
 import {execute as executeAdapter } from "./structural/adapter";
 import {execute as executeCommand } from "./behavioral/command";
 import { executeHooks } from "./hook_pattern";
+import {execute as executeChainOfResponsibility} from "./behavioral/chain_of_responsibility";
 
 /*
   Design patterns:
@@ -43,6 +44,7 @@ import { executeHooks } from "./hook_pattern";
 //execDecorator();
 //execObserver();
 // executeStrategy();
-/* executeAdapter(); */
+// executeAdapter();
 // executeCommand();
-executeHooks();
+// executeHooks();
+executeChainOfResponsibility();
