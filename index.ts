@@ -9,10 +9,11 @@ import { execute as execProxy } from "./structural/proxy";
 import { execute as execDecorator } from "./structural/decorator";
 import { execute as execObserver } from "./behavioral/obsever";
 import { execute as executeStrategy } from "./behavioral/strategy";
-import {execute as executeAdapter } from "./structural/adapter";
-import {execute as executeCommand } from "./behavioral/command";
+import { execute as executeAdapter } from "./structural/adapter";
+import { execute as executeCommand } from "./behavioral/command";
 import { executeHooks } from "./hook_pattern";
-import {execute as executeChainOfResponsibility} from "./behavioral/chain_of_responsibility";
+import { execute as executeChainOfResponsibility } from "./behavioral/chain_of_responsibility";
+import { execute as executeMediator } from "./behavioral/mediator"
 
 /*
   Design patterns:
@@ -47,4 +48,5 @@ import {execute as executeChainOfResponsibility} from "./behavioral/chain_of_res
 // executeAdapter();
 // executeCommand();
 // executeHooks();
-executeChainOfResponsibility();
+// executeChainOfResponsibility();
+executeMediator();
